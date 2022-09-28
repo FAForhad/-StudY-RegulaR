@@ -5,7 +5,8 @@
 }
 
 .studyCard {
-    border: 1px solid gray;
+    border: 1px solid whitesmoke;
+    box-shadow: 10px 5px 20px 12px whitesmoke;
     border-radius: 10px;
 }
 
@@ -17,5 +18,25 @@
 }
 
 .studyCard .details {
-    padding-left: 25px;
+    margin-left: 25px;
+}
+
+.studyCard h2 {
+    color: rgb(112, 7, 7);
+}
+
+.btn-addList {
+    margin-bottom: 10px;
+    width: 40%;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-addList:hover {
+    color: aliceblue;
+    background-color: rgb(65, 7, 7);
 }

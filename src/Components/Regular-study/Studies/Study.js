@@ -1,3 +1,6 @@
+
+import { faList } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Study.css'
 
@@ -12,9 +15,9 @@ const Study = (props) => {
                 <h2 className='details'>{name}</h2>
                 <p className='details'> {about}</p>
                 <h4 className='details'>Duration : {duration} minutes </h4>
-                <button>
+                <button className='btn-addList details' >
                     <p>Add To List</p>
-
+                    <FontAwesomeIcon icon={faList}></FontAwesomeIcon>
                 </button>
             </div>
         </div>
