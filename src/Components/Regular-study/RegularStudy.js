@@ -15,7 +15,7 @@ const RegularStudy = () => {
 
     return (
         <div className='regular-study'>
-            <div>
+            <div className='studies'>
                 <Header></Header>
                 <div className='books'>
                     {
@@ -27,7 +27,7 @@ const RegularStudy = () => {
                     }
                 </div>
             </div>
-            <div>
+            <div className='activities'>
                 <Activity></Activity>
             </div>
         </div>

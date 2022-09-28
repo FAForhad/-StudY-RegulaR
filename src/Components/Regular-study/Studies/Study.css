@@ -1,7 +1,21 @@
 .study {
-    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 100%;
 }
 
-/* .studyCard {
-    display: grid;
-} */
+.studyCard {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.studyCard img {
+    border-radius: 10px;
+    margin: 25px;
+    width: 350px;
+    height: 300px;
+}
+
+.studyCard .details {
+    padding-left: 25px;
+}

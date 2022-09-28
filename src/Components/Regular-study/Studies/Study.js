@@ -1,18 +1,21 @@
 import React from 'react';
-import Header from './Header/Header';
 import './Study.css'
 
 const Study = (props) => {
-    const { key, book } = props
-    console.log(key, book)
+    const { key, book } = props;
+    console.log(key)
+    const { duration, name, picture, about } = book;
     return (
         <div className='study'>
             <div className='studyCard'>
-                <div>
-                    <h2>Name : { }</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit dolorem, culpa magnam eius asperiores qui, sit quasi vel ipsum adipisci voluptates hic architecto. Sint atque enim ab voluptatibus fuga animi.</p>
-                    <h4>Duration : </h4>
-                </div>
+                <img src={picture} alt="" />
+                <h2 className='details'>{name}</h2>
+                <p className='details'> {about}</p>
+                <h4 className='details'>Duration : {duration} minutes </h4>
+                <button>
+                    <p>Add To List</p>
+
+                </button>
             </div>
         </div>
     );
