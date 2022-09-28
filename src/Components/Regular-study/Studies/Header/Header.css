@@ -1,0 +1,12 @@
+.header {
+    margin-left: 20px;
+    padding: 50px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header p {
+    font-size: 30px;
+}

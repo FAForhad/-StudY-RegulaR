@@ -1,0 +1,9 @@
+.regular-study {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
