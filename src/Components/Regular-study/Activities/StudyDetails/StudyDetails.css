@@ -1,0 +1,38 @@
+.studyDetails {
+    margin: auto;
+}
+
+.studyDetails h1 {
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.studyDetails p {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.times {
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 10px 5px 20px 12px whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.btn-activity button {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: none;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+.btn-activity button:hover {
+    color: aliceblue;
+    background-color: rgb(90, 15, 15);
+
+}

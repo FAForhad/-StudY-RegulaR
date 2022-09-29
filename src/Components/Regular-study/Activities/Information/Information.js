@@ -11,7 +11,7 @@ const Information = () => {
             </div>
             <div className='info'>
                 <h2>FA Forhad</h2>
-                <p><FontAwesomeIcon icon={faLocation}></FontAwesomeIcon>Bangladesh Chittagong, port</p>
+                <p><FontAwesomeIcon icon={faLocation}></FontAwesomeIcon>Bangladesh, Chittagong</p>
             </div>
         </div>
     );

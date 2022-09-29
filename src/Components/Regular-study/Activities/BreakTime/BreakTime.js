@@ -4,7 +4,7 @@ import './BreakTime.css'
 const BreakTime = () => {
     return (
         <div className='breakTime'>
-            <p>Add Your Breaks</p>
+            <h1>Add Your Breaks</h1>
             <div className='btn-list'>
                 <button>{5}m</button>
                 <button>{4}m</button>

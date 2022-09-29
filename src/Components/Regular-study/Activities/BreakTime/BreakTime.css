@@ -1,9 +1,9 @@
 .breakTime {
     margin-top: 5px;
-    padding: 0px 25px;
 }
 
-.breakTime p {
+.breakTime h1 {
+    padding-top: 20px;
     margin-left: 10px;
     font-size: 30px;
 }
@@ -21,4 +21,9 @@
     padding: 15px 15px;
     border-radius: 50%;
     border: none;
+}
+
+.btn-list button:hover {
+    color: aliceblue;
+    background-color: rgb(90, 15, 15);
 }
