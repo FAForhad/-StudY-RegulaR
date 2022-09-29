@@ -5,8 +5,7 @@ import React from 'react';
 import './Study.css'
 
 const Study = (props) => {
-    const { key, study, addToStudyTime } = props;
-    console.log(key)
+    const { study, addToStudyTime } = props;
     const { duration, name, picture, about } = study;
     return (
         <div className='study'>
