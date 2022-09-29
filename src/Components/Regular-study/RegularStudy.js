@@ -3,14 +3,23 @@ import Activity from './Activities/Activity';
 import Study from './Studies/Study';
 import './RegularStudy.css'
 import Header from './Studies/Header/Header';
+import StudyDetails from './Activities/StudyDetails/StudyDetails';
 
 const RegularStudy = () => {
 
-    const [books, setBooks] = useState([]);
+    const [studies, setStudies] = useState([]);
+    const [studyTime, setStudyTime] = useState(0)
+    console.log(studyTime)
+
+    const addToStudyTime = (duration) => {
+        setStudyTime(duration + studyTime);
+
+    }
+
     useEffect(() => {
         fetch('study.json')
             .then(res => res.json())
-            .then(data => setBooks(data))
+            .then(data => setStudies(data))
     }, [])
 
     return (
@@ -19,16 +28,19 @@ const RegularStudy = () => {
                 <Header></Header>
                 <div className='books'>
                     {
-                        books.map((book) =>
+                        studies.map((study) =>
                             <Study
-                                book={book}
-                                key={book.id}
+                                study={study}
+                                addToStudyTime={addToStudyTime}
                             ></Study>)
                     }
                 </div>
             </div>
             <div className='activities'>
                 <Activity></Activity>
+                <StudyDetails
+                    studyTime={studyTime}
+                ></StudyDetails>
             </div>
         </div>
     );

@@ -5,9 +5,8 @@ import React from 'react';
 import './Study.css'
 
 const Study = (props) => {
-    const { key, book } = props;
-    console.log(key)
-    const { duration, name, picture, about } = book;
+    const { study, addToStudyTime } = props;
+    const { duration, name, picture, about } = study;
     return (
         <div className='study'>
             <div className='studyCard'>
@@ -15,7 +14,7 @@ const Study = (props) => {
                 <h2 className='details'>{name}</h2>
                 <p className='details'> {about}</p>
                 <h4 className='details'>Duration : {duration} minutes </h4>
-                <button className='btn-addList details' >
+                <button className='btn-addList details' onClick={() => addToStudyTime(duration)}>
                     <p>Add To List</p>
                     <FontAwesomeIcon icon={faList}></FontAwesomeIcon>
                 </button>
