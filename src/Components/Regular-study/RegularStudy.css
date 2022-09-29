@@ -13,3 +13,25 @@
 .studies {
     margin: 0px 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .regular-study {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .books {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .regular-study {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .books {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

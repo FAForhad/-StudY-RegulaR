@@ -3,6 +3,7 @@ import Activity from './Activities/Activity';
 import Study from './Studies/Study';
 import './RegularStudy.css'
 import Header from './Studies/Header/Header';
+import Blogs from './Studies/Blogs/Blogs';
 const RegularStudy = () => {
 
     const [studies, setStudies] = useState([]);
@@ -26,11 +27,13 @@ const RegularStudy = () => {
                     {
                         studies.map((study) =>
                             <Study
+                                key={study.id}
                                 study={study}
                                 addToStudyTime={addToStudyTime}
                             ></Study>)
                     }
                 </div>
+                <Blogs></Blogs>
             </div>
             <div className='activities'>
                 <Activity

@@ -4,8 +4,6 @@ import BreakTime from './BreakTime/BreakTime';
 import Information from './Information/Information';
 import StudyDetails from './StudyDetails/StudyDetails'
 import swal from 'sweetalert'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiagramSuccessor, faLongArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 
 const Activity = ({ studyTime }) => {
