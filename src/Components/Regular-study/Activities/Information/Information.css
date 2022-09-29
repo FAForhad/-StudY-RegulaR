@@ -1,0 +1,17 @@
+.allInformations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-info img {
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 20px 12px whitesmoke;
+    width: 110px;
+    height: 110px;
+}
+
+.info {
+    font-size: 20px;
+}

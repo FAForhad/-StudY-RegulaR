@@ -1,0 +1,24 @@
+.breakTime {
+    margin-top: 5px;
+    padding: 0px 25px;
+}
+
+.breakTime p {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 5px 20px 12px whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.btn-list button {
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: none;
+}

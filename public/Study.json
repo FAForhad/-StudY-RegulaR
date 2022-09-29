@@ -1,26 +1,5 @@
 [
   {
-    "id": "633459775aa136ba0dc20f48",
-    "picture": "https://images.unsplash.com/photo-1631254145145-6ce996e72f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    "name": "Physics",
-    "duration": 40,
-    "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
-  },
-  {
-    "id": "633459776cd8521a30d3830e",
-    "picture": "https://img.freepik.com/free-vector/biology-laboratory-workspace-design-concept_1284-11559.jpg?t=st=1664379267~exp=1664379867~hmac=e599b62f1effc4da680d2c05eb1724a539c2cdcd5becd04b00a63a9cb290be5f",
-    "name": "Biology",
-    "duration": 35,
-    "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
-  },
-  {
-    "id": "633459777a7f110eeb4532e6",
-    "picture": "https://img.freepik.com/free-photo/experiments-chemistry-lab-conducting-experiment-laboratory_155003-1401.jpg?w=1380&t=st=1664379421~exp=1664380021~hmac=fa8382a5698163bbb46dce34715b261834497c0f96b3808def03f98b78e759e5",
-    "name": "Chemistry",
-    "duration": 30,
-    "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
-  },
-  {
     "id": "633459778810b3b555470af8",
     "picture": "https://img.freepik.com/free-vector/maths-chalkboard_23-2148178219.jpg?w=1380&t=st=1664379466~exp=1664380066~hmac=39f415b5f38d848d33cce2b20ad14b5f58e5be2f69c59b246ccef383bc4577e7",
     "name": "Higher-Math",
@@ -28,17 +7,38 @@
     "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
   },
   {
-    "id": "63345977a6ede0febf85aac6",
-    "picture": "https://img.freepik.com/free-vector/isometric-language-center-courses-composition-with-bunch-books-english-surrounded-by-people-illustration_1284-64124.jpg?w=826&t=st=1664379508~exp=1664380108~hmac=c5ff0eb5cee0eb268d6507715f1d1c297c417db3908b8ed8accd4ffd3ff20034",
-    "name": "English",
+    "id": "63345977fb11561ac32095c3",
+    "picture": "https://img.freepik.com/free-psd/top-view-numbers-rulers-mathematics_23-2148458903.jpg?w=1060&t=st=1664379696~exp=1664380296~hmac=9a99e8c553da5e1c9e0d7d09df890cdc3e2ea0f1a378252a9eaf77a05842762d",
+    "name": "Math",
+    "duration": 20,
+    "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
+  },
+  {
+    "id": "633459776cd8521a30d3830e",
+    "picture": "https://img.freepik.com/free-vector/biology-laboratory-workspace-design-concept_1284-11559.jpg?t=st=1664379267~exp=1664379867~hmac=e599b62f1effc4da680d2c05eb1724a539c2cdcd5becd04b00a63a9cb290be5f",
+    "name": "Biology",
     "duration": 25,
     "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
   },
   {
-    "id": "63345977fb11561ac32095c3",
-    "picture": "https://img.freepik.com/free-psd/top-view-numbers-rulers-mathematics_23-2148458903.jpg?w=1060&t=st=1664379696~exp=1664380296~hmac=9a99e8c553da5e1c9e0d7d09df890cdc3e2ea0f1a378252a9eaf77a05842762d",
-    "name": "Math",
+    "id": "633459777a7f110eeb4532e6",
+    "picture": "https://img.freepik.com/free-photo/experiments-chemistry-lab-conducting-experiment-laboratory_155003-1401.jpg?w=1380&t=st=1664379421~exp=1664380021~hmac=fa8382a5698163bbb46dce34715b261834497c0f96b3808def03f98b78e759e5",
+    "name": "Chemistry",
+    "duration": 20,
+    "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
+  },
+  {
+    "id": "633459775aa136ba0dc20f48",
+    "picture": "https://images.unsplash.com/photo-1631254145145-6ce996e72f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "name": "Physics",
     "duration": 30,
+    "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
+  },
+  {
+    "id": "63345977a6ede0febf85aac6",
+    "picture": "https://img.freepik.com/free-vector/isometric-language-center-courses-composition-with-bunch-books-english-surrounded-by-people-illustration_1284-64124.jpg?w=826&t=st=1664379508~exp=1664380108~hmac=c5ff0eb5cee0eb268d6507715f1d1c297c417db3908b8ed8accd4ffd3ff20034",
+    "name": "English",
+    "duration": 15,
     "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
   },
   {
@@ -59,7 +59,7 @@
     "id": "63345977a66a0e945bd7b3ac",
     "picture": "https://img.freepik.com/free-vector/pop-art-colorful-frames-with-objects_225004-796.jpg?w=826&t=st=1664383275~exp=1664383875~hmac=c701c22a3552390e3b9b151fdf5bf433a98cce078c129d19fa07268402853054",
     "name": "Manga",
-    "duration": 25,
+    "duration": 10,
     "about": "Mollit officia Lorem sit consequat officia. Nostrud laboris est do sit do cillum. In nulla exercitation velit amet non nisi pariatur aliqua aliquip sunt elit in.\r\n"
   }
 ]

@@ -1,10 +1,13 @@
 import React from 'react';
 import './Activity.css'
+import BreakTime from './BreakTime/BreakTime';
+import Information from './Information/Information';
 
 const Activity = () => {
     return (
         <div className='activity'>
-            <h1>act</h1>
+            <Information></Information>
+            <BreakTime></BreakTime>
         </div>
     );
 };
