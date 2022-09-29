@@ -1,7 +1,7 @@
 import React from 'react';
 import './StudyDetails.css'
 
-const StudyDetails = ({ studyTime }) => {
+const StudyDetails = ({ time, studyTime }) => {
     return (
         <div className='studyDetails'>
             <h1>Study Details</h1>
@@ -11,7 +11,7 @@ const StudyDetails = ({ studyTime }) => {
             </div>
             <div className='times'>
                 <p>Break Time</p>
-                <p>{0} minutes</p>
+                <p>{time ? time : 0} minutes</p>
             </div>
             <div className='btn-activity'>
                 <button >ActivitY Comopleted</button>

@@ -3,8 +3,6 @@ import Activity from './Activities/Activity';
 import Study from './Studies/Study';
 import './RegularStudy.css'
 import Header from './Studies/Header/Header';
-import StudyDetails from './Activities/StudyDetails/StudyDetails';
-
 const RegularStudy = () => {
 
     const [studies, setStudies] = useState([]);
@@ -13,7 +11,6 @@ const RegularStudy = () => {
 
     const addToStudyTime = (duration) => {
         setStudyTime(duration + studyTime);
-
     }
 
     useEffect(() => {
@@ -37,10 +34,9 @@ const RegularStudy = () => {
                 </div>
             </div>
             <div className='activities'>
-                <Activity></Activity>
-                <StudyDetails
+                <Activity
                     studyTime={studyTime}
-                ></StudyDetails>
+                ></Activity>
             </div>
         </div>
     );
