@@ -7,7 +7,6 @@ const RegularStudy = () => {
 
     const [studies, setStudies] = useState([]);
     const [studyTime, setStudyTime] = useState(0)
-    console.log(studyTime)
 
     const addToStudyTime = (duration) => {
         setStudyTime(duration + studyTime);

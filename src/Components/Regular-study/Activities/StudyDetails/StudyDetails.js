@@ -1,7 +1,8 @@
 import React from 'react';
 import './StudyDetails.css'
 
-const StudyDetails = ({ time, studyTime }) => {
+
+const StudyDetails = ({ time, studyTime, toast }) => {
     return (
         <div className='studyDetails'>
             <h1>Study Details</h1>
@@ -14,7 +15,7 @@ const StudyDetails = ({ time, studyTime }) => {
                 <p>{time ? time : 0} minutes</p>
             </div>
             <div className='btn-activity'>
-                <button >ActivitY Comopleted</button>
+                <button onClick={() => toast()}>ActivitY Comopleted</button>
             </div>
         </div>
     );
