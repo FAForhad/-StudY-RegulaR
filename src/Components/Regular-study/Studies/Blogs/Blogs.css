@@ -7,7 +7,7 @@
 
 .blogs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 3fr;
     gap: 40px;
     margin-bottom: 30px;
 }
